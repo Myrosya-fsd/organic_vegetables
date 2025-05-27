@@ -1,54 +1,50 @@
 .footer {
-  padding: 52px 100px;
-  height: 392px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #7a3145;
-  font-family: 'Inter Tight', sans-serif;
+  height: 100%;
 }
-
 .container-footer {
-  display: block;
-}
-
-.footer-box {
   display: flex;
-  flex-direction: row;
-  justify-content: center; /* центрує по горизонталі */
-  align-items: flex-start; /* центрує по вертикалі */
-  margin-bottom: 126px;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.footer-rigth {
-  display: block;
-  gap: 24px;
-  margin-right: 250px;
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  transition: transform 0.2s ease;
 }
 
-.icon-logo {
-  height: 20px;
-  margin-bottom: 24px;
+.footer-logo:hover {
+  transform: scale(1.05);
 }
 
 .footer-text {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 128%;
   color: white;
-  width: 265px;
+  margin-bottom: 40px;
 }
 
 .footer-list {
-  display: block;
-  margin-right: 121px;
+  color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
 }
 
 .footer-item {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: white;
-  margin-bottom: 24px;
   transition: transform 0.2s ease;
 }
 
@@ -61,45 +57,28 @@
 }
 
 .tel {
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .footer-link {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   color: white;
   text-transform: capitalize;
-}
-
-.rights-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  color: white;
-}
-
-.footer-address {
   font-style: normal;
-}
-
-.rights {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; /* центрує по горизонталі */
-  align-items: center; /* центрує по вертикалі */
 }
 
 .terms {
   display: flex;
-  gap: 12px;
-  margin-right: 686px;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
 .terms-item {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   color: #d4bfc4;
   transition: transform 0.2s ease;
 }
@@ -110,7 +89,112 @@
 
 .rights-title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   color: #d4bfc4;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footer-container {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  .footer-icon {
+    width: 194px;
+    height: 18px;
+    margin-bottom: 24px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 125%;
+    width: 265px;
+  }
+
+  .footer-box {
+    display: flex;
+    justify-content: space-between; /* центрує по горизонталі */
+    align-items: flex-start; /* центрує по вертикалі */
+  }
+
+  .footer-rigth {
+    display: block;
+    gap: 24px;
+  }
+
+  .footer-item {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .tel {
+    margin-bottom: 24px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .terms-item {
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .rights-title {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* центрує по горизонталі */
+    align-items: flex-start; /* центрує по вертикалі */
+  }
+
+  .container-footer {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-box-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* центрує по горизонталі */
+    align-items: flex-start; /* центрує по вертикалі */
+  }
+
+  .footer-rigth {
+    margin-right: 250px;
+  }
+  .footer-list {
+    margin-bottom: 0;
+    margin-right: 121px;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* центрує по горизонталі */
+    align-items: flex-start; /* центрує по вертикалі */
+  }
+
+  .terms {
+    margin-bottom: 0;
+  }
 }

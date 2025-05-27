@@ -1,33 +1,30 @@
 .order {
-  padding: 100px;
-  height: 1036px;
-  font-family: 'Inter Tight', sans-serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #576f35;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
+  align-items: center;
 }
 
 .container-order {
   display: flex;
   flex-direction: column;
-  align-items: left; /* залишити ліве вирівнювання */
-  max-width: 1280px;
-  width: 100%;
-  text-align: left;
-  justify-content: center; /* вертикально по центру */
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .order-title {
   font-weight: 600;
-  font-size: 64px;
-  line-height: 100%;
+  font-size: 48px;
+  line-height: 108%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: white;
-  width: 751px;
-  margin-bottom: 24px;
+  width: 335px;
+  margin-bottom: 20px;
 }
 
 .order-part {
@@ -36,28 +33,28 @@
 
 .order-text {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   color: white;
-  width: 742px;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
 }
 
 .order-form {
   border-radius: 30px;
-  padding: 52px 48px;
-  width: 524px;
-  height: 592px;
+  padding: 40px 20px;
+  width: 335px;
+  height: 552px;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .form-text {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
 }
 
 .order-text-part {
@@ -69,18 +66,17 @@
 }
 
 .contact-imput {
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 30px;
-  width: 428px;
-  height: 52px;
-  padding: 16px 326px 16px 16px;
+  padding: 14px 200px 14px 16px;
+  width: 295px;
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 16px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   text-align: left;
   box-sizing: border-box;
-
   cursor: pointer;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,6 +87,7 @@
 .contact-imput:focus {
   border-color: #7a3145;
 }
+
 .contact-imput:hover {
   border-color: #576f35;
   cursor: pointer;
@@ -98,18 +95,18 @@
 }
 
 .contact-textarea {
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  width: 428px;
-  height: 96px;
-  padding: 16px;
+  padding: 14px 180px 59px 16px;
+  width: 295px;
+  height: 92px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   text-align: left;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  overflow: hidden;
   resize: none;
-
   cursor: pointer;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -129,8 +126,8 @@
 
 .contact-button {
   border-radius: 30px;
-  padding: 16px 191px;
-  width: 428px;
+  padding: 16px 129px;
+  width: 295px;
   height: 52px;
   border: none;
   background-color: #7a3145;
@@ -152,30 +149,37 @@
 
 .order-link {
   border-radius: 30px;
-  padding: 52px 48px;
-  width: 524px;
-  height: 592px;
+  padding: 40px 20px;
+  width: 335px;
+  height: 456px;
   background-color: #7a3145;
 }
 
 .order-link-card {
   border-radius: 15px;
-  width: 428px;
-  height: 352px;
-  margin-bottom: 80px;
+  width: 295px;
+  height: 272px;
+  margin-bottom: 20px;
+  background: transparent;
+  background-image: linear-gradient(
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3)
+  );
 }
 
 .order-link-text {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 125%;
+  font-size: 14px;
+  line-height: 143%;
   color: white;
   margin-bottom: 16px;
 }
 
 .social_list {
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .social_items {
@@ -193,11 +197,177 @@
   transform: scale(1.05);
 }
 
-.order-block {
-  display: flex; /* flex-контейнер */
-  flex-direction: row; /* колонки в ряд */
-  gap: 32px; /* відступ між колонками */
+@media screen and (min-width: 768px) {
+  .order {
+    padding: 100px 34px;
+  }
 
-  justify-content: center; /* горизонтальне центрування */
-  align-items: center; /* вертикальне центрування */
+  .order-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    width: 640px;
+    margin-bottom: 24px;
+  }
+
+  .order-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 52px;
+  }
+
+  .order-form {
+    padding: 72px 100px;
+    width: 640px;
+    height: 632px;
+    margin-bottom: 32px;
+  }
+
+  .form-text {
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 52px;
+  }
+
+  .contact-imput {
+    border-radius: 30px;
+    padding: 16px 346px 16px 16px;
+    width: 440px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .contact-imput:focus {
+    border-color: #7a3145;
+  }
+
+  .contact-imput:hover {
+    border-color: #576f35;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .contact-textarea {
+    padding: 16px 345px 59px 16px;
+    width: 440px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 24px;
+  }
+
+  .contact-button {
+    padding: 16px 191px;
+    width: 440px;
+    height: 52px;
+  }
+
+  .order-link {
+    padding: 52px;
+    width: 640px;
+    height: 528px;
+  }
+
+  .order-link-card {
+    width: 536px;
+    height: 316px;
+    margin-bottom: 52px;
+  }
+
+  .order-link-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .social_list {
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-order {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* залишити ліве вирівнювання */
+    max-width: 1280px;
+    width: 100%;
+    text-align: left;
+    justify-content: center; /* вертикально по центру */
+  }
+
+  .container-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container-order {
+    max-width: 1280px;
+    width: 100%;
+  }
+
+  .order-title {
+    width: 751px;
+  }
+
+  .order-text {
+    width: 742px;
+  }
+
+  .order-form {
+    padding: 52px 48px;
+    width: 524px;
+    height: 592px;
+    margin-bottom: 0;
+  }
+
+  .form-text {
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 52px;
+  }
+
+  .contact-imput {
+    padding: 16px 346px 16px 16px;
+    width: 428px;
+  }
+
+  .contact-textarea {
+    width: 428px;
+    padding: 16px;
+  }
+
+  .contact-button {
+    width: 428px;
+  }
+
+  .order-link {
+    padding: 52px 48px;
+    width: 524px;
+    height: 592px;
+  }
+
+  .order-link-card {
+    width: 428px;
+    height: 352px;
+    margin-bottom: 80px;
+  }
+
+  .social_list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .order-block {
+    display: flex; /* flex-контейнер */
+    flex-direction: row; /* колонки в ряд */
+    gap: 32px; /* відступ між колонками */
+    justify-content: center; /* горизонтальне центрування */
+    align-items: center; /* вертикальне центрування */
+  }
 }

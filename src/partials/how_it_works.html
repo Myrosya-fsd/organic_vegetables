@@ -1,7 +1,20 @@
 <section class="how-it-works" id="how-it-works">
-  <div class="container">
+  <div class="container container-how-it-works" fade-right>
+    <h2 class="visually-hidden">How it works</h2>
     <div class="works-box">
       <picture class="how-it-works-card">
+        <source
+          srcset="../img/img-desktop-1x.jpg 1x, ../img/img-desktop-2x.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="../img/img-tablet-1x.jpg 1x, ../img/img-tablet-2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../img/image-mob.jpg 1x, ../img/image-mob-2x.jpg 2x"
+          media="(min-width: 320px) and (max-width: 375px)"
+        />
         <img
           class="how-it-works-img"
           src="./img/img-desktop-1x.jpg"
@@ -10,7 +23,12 @@
         />
       </picture>
     </div>
-    <div class="works-box-two">
+    <div
+      class="works-box-two"
+      data-aos="fade-left"
+      data-aos-delay="300"
+      data-aos-duration="2000"
+    >
       <h2 class="how-it-works-title">
         To order your <span class="accent-hiw">vegetable </span> basket, simply
         follow these
