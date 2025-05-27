@@ -113,11 +113,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
-    width: 100%;
-    flex-direction: row;
-  }
-
   .container-hero {
     display: flex;
     flex-direction: row;
@@ -127,13 +122,18 @@
   }
 
   .hero-content {
-    padding-top: 232px;
+    padding: 232px 36px 52px 100px;
     width: 640px;
     height: 796px;
   }
 
   .hero-title {
     margin-bottom: 128px;
+    width: 502px;
+  }
+
+  .hero-text {
+    width: 472px;
   }
 
   .hero-image {
@@ -148,6 +148,7 @@
     background-size: cover;
     width: 640px;
     height: 796px;
+    flex-shrink: 0;
   }
 
   @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
