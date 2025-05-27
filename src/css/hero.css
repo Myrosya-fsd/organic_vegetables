@@ -46,7 +46,7 @@
       rgba(20, 20, 20, 0.2),
       rgba(20, 20, 20, 0.2)
     ),
-    url(../img/pic-mobile.jpg);
+    url(/img/pic-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -64,7 +64,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/pic-mobile-2x.jpg);
+      url(/img/pic-mobile-2x.jpg);
   }
 }
 
@@ -93,7 +93,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/pic-tablet.jpg);
+      url(/img/pic-tablet.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -107,7 +107,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../img/pic-table-2x.jpg);
+        url(/img/pic-table-2x.jpg);
     }
   }
 }
@@ -142,7 +142,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/pic-desktop.jpg);
+      url(/img/pic-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -157,7 +157,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../img/pic-desktop-2x.jpg);
+        url(/img/pic-desktop-2x.jpg);
     }
   }
 
