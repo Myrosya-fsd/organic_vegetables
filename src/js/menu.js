@@ -1,6 +1,3 @@
-import './js/aos.js';
-//import './js/menu.js';
-
 (() => {
   const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
