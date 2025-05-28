@@ -19,7 +19,7 @@
 .header-nav {
   display: flex;
   align-items: center;
-  max-width: 375px;
+  /*max-width: 375px;*/
 }
 
 .header-logo {
