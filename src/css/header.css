@@ -30,7 +30,6 @@
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 0.2s ease;
-  width: 168px;
   margin-right: 125px;
 }
 
