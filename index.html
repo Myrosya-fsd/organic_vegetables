@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="/organic_vegetables/assets/logo-CywIixji.svg" />
     <script type="module" crossorigin src="/organic_vegetables/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/organic_vegetables/assets/index-D8OH56_l.css">
+    <link rel="stylesheet" crossorigin href="/organic_vegetables/assets/index-YYd62iOU.css">
   </head>
   <body>
     <header class="header-style">
@@ -55,7 +55,7 @@
         </li>
       </ul>
       <button class="button-style" type="button">Shop now</button>
-      <button class="button-menu" type="button">
+      <button class="button-menu" type="button" data-modal-open>
         <svg class="open-btn-icon" width="20" height="20">
           <use href="/organic_vegetables/assets/symbol-defs-BzN8zj55.svg#icon-burger-thin"></use>
         </svg>
@@ -64,38 +64,36 @@
   </div>
 </header>
 
-    <!--<section>
-  <div class="menu-backdrop is-open" id="mobile-menu" data-modal>
-    <div class="mob-menu" id="mobile-menu">
-      <button type="button" class="menu-close-btn" data-modal-close>
-        <svg class="icon">
-          <use
-            href="../img/Component.svg#icon-Component-2-1"
-            width="20px"
-            height="20px"
-          ></use>
-        </svg>
-      </button>
-
-      <nav class="mob-menu-nav">
-        <ul class="mob-menu-ul">
-          <li class="mob-menu-li">
-            <a class="mob-menu-a" href="how-it-works">How It Works</a>
-          </li>
-          <li class="mob-menu-li">
-            <a class="mob-menu-a" href="#vegetable">Vegetables</a>
-          </li>
-          <li class="mob-menu-li">
-            <a class="mob-menu-a" href="#reviews">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-
-      <button class="mob-menu-btn" type="button">Shop now</button>
+    
+<div class="menu-backdrop js-menu-container" id="mobile-menu" data-modal>
+    <div class="mob-menu js-menu-container" id="mobile-menu">
+    <button
+      type="button"
+      class="menu-close-btn js-close-menu"
+      data-modal-close
+    >
+      <svg class="close-btn-icon" width="20" height="20">
+        <use href="../public/symbol-defs.svg#icon-close-thin"></use>
+      </svg>
+    </button>
+    <nav class="mob-menu-nav">
+      <ul class="mob-menu-ul">
+        <li class="mob-menu-li">
+          <a class="mob-menu-a" href="how-it-works">How It Works</a>
+        </li>
+        <li class="mob-info-li">
+          <a class="mob-menu-a" href="#vegetable">Vegetables</a>
+        </li>
+        <li class="mob-info-li">
+          <a class="mob-menu-a" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="mob-menu-btn" type="button">Shop now</button>
     </div>
-  </div>
-</section>
--->
+</div>
+</header>
+
     <main>
       <section class="hero">
   <div class="container container-hero">
@@ -593,5 +591,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   </body>
 </html>
