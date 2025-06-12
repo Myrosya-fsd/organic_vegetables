@@ -103,6 +103,7 @@
   .footer-container {
     margin: 0 auto;
     max-width: 768px;
+    width: 100%;
   }
 
   .footer-icon {
@@ -119,8 +120,8 @@
 
   .footer-box {
     display: flex;
-    justify-content: space-between; /* центрує по горизонталі */
-    align-items: flex-start; /* центрує по вертикалі */
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .footer-rigth {
@@ -157,8 +158,8 @@
   .footer-box {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* центрує по горизонталі */
-    align-items: flex-start; /* центрує по вертикалі */
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .container-footer {
@@ -175,8 +176,8 @@
   .footer-box-link {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* центрує по горизонталі */
-    align-items: flex-start; /* центрує по вертикалі */
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .footer-rigth {
@@ -190,8 +191,8 @@
   .rights {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* центрує по горизонталі */
-    align-items: flex-start; /* центрує по вертикалі */
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .terms {

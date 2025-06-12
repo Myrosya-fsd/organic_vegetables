@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 .order-title {
@@ -23,7 +24,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: white;
-  width: 335px;
+  width: 320px;
   margin-bottom: 20px;
 }
 
@@ -42,7 +43,7 @@
 .order-form {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  width: 320px;
   height: 552px;
   background-color: white;
   margin-bottom: 20px;
@@ -68,7 +69,7 @@
 .contact-imput {
   border-radius: 30px;
   padding: 14px 200px 14px 16px;
-  width: 295px;
+  width: 280px;
   height: 48px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 16px;
@@ -97,7 +98,7 @@
 .contact-textarea {
   border-radius: 15px;
   padding: 14px 180px 59px 16px;
-  width: 295px;
+  width: 280px;
   height: 92px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   font-weight: 500;
@@ -127,7 +128,7 @@
 .contact-button {
   border-radius: 30px;
   padding: 16px 129px;
-  width: 295px;
+  width: 280px;
   height: 52px;
   border: none;
   background-color: #7a3145;
@@ -150,7 +151,7 @@
 .order-link {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
+  width: 320px;
   height: 456px;
   background-color: #7a3145;
 }
